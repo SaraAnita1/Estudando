@@ -86,7 +86,46 @@ h1 {
             .[http://caniuse.com]
 
 
-  
+    * Valores e unidades de medida
+        * cada propriedade possui valores 'property: value'
+        * estudo constante a fim de entender as propriedades e seus valores
+        
+        #Prática
+        * como conhecer  e estudar os valores na documentação?
+            * <color> <length>
+        * os termos podem variar. 'values' ou 'data types'
 
-            
+    * Tipos numéricos 
+            *<integer> Número inteiro como -10 ou 230
+            *<number> Número decimal como -2.4, 64 ou 0.234
+            *<dimension> É um <number> com uma unidade junto: 90deg, 2s, 8px
+            *<percentagem> Representa a fração de outro  número: 50%
+
+        #Unidades comuns
+            *<length> Representa um valor de distância: px, em, vw
+            *<angle> Representa um ângulo: deg, rad, turn
+            *<time> representa um  tempo: s, ms
+            *<resolution> representa resoluções para dispositivos: dpi
+
+        #Distancias absolutas
+            São fixas e não alteram seu valor.
+        
+        Unidade       Nome                  Equivalência
+        cm            Centímetros           1cm = 96px/2.45
+        in            Inches (Polegadas)    1in = 2.54cm = 96px
+        px            Pixels                1px = 1/96th of lin
+
+        * é mais comum e mais utilizado é **px**
+        * não recomendado usar cm
+
+        #Distancias relativas
+            São relativas a algum outro valor, pode ser o elemento pai, ou root, ou o tamanho da tela.
+
+        * Benefício: Maior adaptação aos diferentes tipos de tela.
+
+        Unidade             relativo a
+        em                  Tamanho da font do pai.
+        rem                 Tamanho da font do elemento raiz (root/html)
+        vw                  1% da viewport width. (largura)
+        vh                  1% da viewport height. (altura)
     
