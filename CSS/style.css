@@ -1,0 +1,92 @@
+/* socorro */ 
+
+/*#Anatomia 
+
+h1 {
+    color: aquamarine;
+    font-size:60;px
+    background-color: black;
+}
+
+  #Seletores
+
+  conecta um elemento HTML com o CSS
+
+  ##Tipos
+  *Global selector '*'
+  *Element/type selector 'h1, h2, p, div'
+  *ID Selector '#box, #container'
+  *Class Selector  '.red, .m-4'
+  *Attribute selector, Pseudo-class, Pseudo-element, e outros
+
+  * { = elemento global caracteristicas que ficaram presentes em todo documento.
+
+    * {
+        margin: 2px;
+
+    }
+
+    Formas de aplicar o CSS
+        * em linha
+        * dentro do head do documento colocar a tag style
+        * linkando o arquivo do CSS no head do documento
+
+
+
+    */
+
+    h1 {
+        color: rgb(85, 167, 182);
+    
+    }
+
+    /* Regras
+
+        @import - incluir um CSS externo 
+            @import url("https://local.com/style.css");
+        @media - regras condicionais para dispositivos
+            @media (min-width: 500px) 
+        @font-face - fontes externas
+            @font-face { 
+                regras aqui/ rules here
+            }
+        @keyframes - Animation
+            @keyframes nameofanimation {
+
+            }
+
+        # Funções
+
+            - nome seguido de abre e fecha parentesis
+            - recebe argumentos
+        Exemplos:
+        '''css
+        @import url("http://urlaqui.com/style.css")
+
+        {
+            color: rgb(255, 0, 100)
+            width: calc(100% - 10px);
+        }
+
+        * Vendor Prefixes
+            Permite que alguns browsers adcione 'features'
+            a fim de colocar em uso alguma novidade que vemos em CSS
+
+        #Exemplo
+
+        '''css
+        p { 
+            -webkit-background-clip: text; (chrome, safari, IOS e Android)
+            -moz-background-clip: text; (Mozilla Firefox)
+            -ms-background-clip: text; (Internet Explorer)
+            -o-background-clip: text; (Opera)
+
+        Consultas
+            .[http://iread.github.io/which-vendor-prefix/]
+            .[http://caniuse.com]
+
+
+  
+
+            
+    
